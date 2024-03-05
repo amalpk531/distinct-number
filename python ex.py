@@ -11,3 +11,15 @@ def find_max(arr):
     return max_element
 print("Maximum element in the array:", find_max(arr))
 
+# Question 2: Reverse an array
+
+def reverse_array(arr):
+    return arr[::-1]
+print("Reversed array:", reverse_array(arr))
+
+# Question 3: Find the sum of elements in an array
+
+def array_sum(arr):
+    return sum(arr)
+print("Sum of array elements:", array_sum(arr))
+
