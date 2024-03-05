@@ -23,3 +23,14 @@ def array_sum(arr):
     return sum(arr)
 print("Sum of array elements:", array_sum(arr))
 
+# Question 4: Check if an array is sorted
+
+def is_sorted(arr):
+    return arr == sorted(arr)
+print("Is the array sorted?", is_sorted(arr))
+
+# Question 5: Remove duplicates from an array
+
+def remove_duplicates(arr):
+    return list(set(arr))
+print("Array after removing duplicates:", remove_duplicates(arr))
