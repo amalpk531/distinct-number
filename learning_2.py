@@ -55,6 +55,6 @@ unique_list = set(my_list)
 print("The list with unique elements only:")
 print(unique_list)
 
-""" output:The list with unique elements only:
-{1, 2, 4, 6, 9} """
+# output:The list with unique elements only:
+#{1, 2, 4, 6, 9} """
 
