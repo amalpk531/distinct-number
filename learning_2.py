@@ -46,3 +46,15 @@ else:
 	else:
 		print("Leap year")
 
+#----------------------unique list----------------------------------#
+		my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+
+# Remove duplicates using a set
+unique_list = set(my_list)
+
+print("The list with unique elements only:")
+print(unique_list)
+
+""" output:The list with unique elements only:
+{1, 2, 4, 6, 9} """
+
