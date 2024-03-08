@@ -25,3 +25,14 @@ class LinkedList:
         print("None")
 
 
+# Taking input for linked list elements....
+        
+        
+ll = LinkedList()
+num_elements = int(input("Enter the number of elements: "))
+for _ in range(num_elements):
+    element = int(input("Enter element: "))
+    ll.append(element)
+
+# Displaying the linked list.....
+ll.display()
