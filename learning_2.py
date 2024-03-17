@@ -58,4 +58,12 @@ print(unique_list)
 # output:The list with unique elements only:
 #{1, 2, 4, 6, 9} """
 
+#----------------------write in a file-----------------------#
+# Create a new file called "myfile.txt" and write text to it
+with open("myfile.txt", "w") as f:
+  f.write("This is some new text for the file.")
+
+print("Successfully wrote text to the file.")
+
+
 
