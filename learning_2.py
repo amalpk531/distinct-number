@@ -3,7 +3,7 @@ def reverse_string(string):
     return string[::-1]
 
 # Test the function
-print(reverse_string("enthada mone"))  
+print(reverse_string("hello"))  
 
 # Output: "olleh"
 
