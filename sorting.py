@@ -33,7 +33,7 @@ def selection_sort(array):
             if array[j] < array[min_index]:
                 min_index = j
         
-        # Swap the found minimum element with the first element
+        # Swap the found minimum element with the first element.
         array[i], array[min_index] = array[min_index], array[i]
 
 # Example usage:
