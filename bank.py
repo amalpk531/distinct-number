@@ -29,5 +29,5 @@ my_account.deposit(deposit_amount)
 withdrawal_amount = float(input("Enter the withdrawal amount in rupees: "))
 my_account.withdraw(withdrawal_amount)
 
-# Checking balance
+# Checking balance.
 my_account.check_balance()
