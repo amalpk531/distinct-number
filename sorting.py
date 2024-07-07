@@ -18,3 +18,4 @@ arr = [int(num) for num in arr]
 bubble_sort(arr)
 print("Sorted array is:", arr)
 
+
