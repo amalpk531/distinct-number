@@ -28,11 +28,11 @@ class LinkedList:
 # Taking input for linked list elements....
         
         
-ll = LinkedList()
+linkl = LinkedList()
 num_elements = int(input("Enter the number of elements: "))
 for _ in range(num_elements):
     element = int(input("Enter element: "))
     ll.append(element)
 
 # Displaying the linked list.....
-ll.display()
+linkl.display()
